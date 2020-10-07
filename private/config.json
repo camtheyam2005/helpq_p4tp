@@ -8,5 +8,19 @@
     "clientId": "5345dd46ac9574c40d8d",
     "secret": "abce474621ed851c768905f15af68e5bc90e93ed"
   },
+    "facebook": {
+    "enable": false,
+    "appId": "facebook-client-id",
+    "secret": "facebook-secret"
+  },
+  "google": {
+    "enable": false,
+    "clientId": "google-client-id",
+    "secret": "google-secret"
+  },
+  "settings": {
+    "queueEnabled": true,
+    "expirationDelay": 1800000
+  },
   "defaultMentor": true
 }
