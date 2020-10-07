@@ -16,7 +16,7 @@
     "secret": "ba926593f8e0eb8e121a43462a1b0d0e"
   },
   "google": {
-    "enable": true,
+    "enable": false,
     "clientId": "506416248261-1bns78cejurmgsjmt1u01su0rqv4e5om.apps.googleusercontent.com",
     "secret": "jUTs5f3wZTdp1Hhfr9_mQ3oV"
   },
