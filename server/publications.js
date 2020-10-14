@@ -4,8 +4,8 @@
 
 Meteor.publish("userData", getUserData);
 Meteor.publish("allUsers", getAllUsers);
-Meteor.publish("allMentors", getAllMentors);
-Meteor.publish("mentorsOnline", getMentorsOnline);
+//Meteor.publish("allMentors", getAllMentors);
+//Meteor.publish("mentorsOnline", getMentorsOnline);
 
 Meteor.publish("activeTickets", getActiveTickets);
 Meteor.publish("allTickets", getAllTickets);
@@ -62,6 +62,7 @@ function getAllMentors(){
     });
   }
 }
+'''
 
 // All users can see any mentor that is currently online
 function getMentorsOnline(){
